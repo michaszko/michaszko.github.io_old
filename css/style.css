@@ -11,7 +11,7 @@ body {
   body::after {
     content: "";
     /* background: url(/img/valencia.svg); */
-    background: url(/cede1f748c2d14a50bd089a23ebface0d18b2d5a/img/valencia.svg);
+    background: url(/img/valencia.svg);
     background-size: cover;
     opacity: 0.1;
     top: 0;
