@@ -1,0 +1,101 @@
+body {
+  max-width: 800px;
+  margin: auto;
+  padding: 1em;
+  line-height: 1.8em;
+  color: #003321;
+}
+
+/* make background with opacity and fixed*/
+@media (min-width: 800px) {
+  body::after {
+    content: "";
+    /* background: url(/img/valencia.svg); */
+    background: url(/cede1f748c2d14a50bd089a23ebface0d18b2d5a/img/valencia.svg);
+    background-size: cover;
+    opacity: 0.1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: -1;
+  }
+}
+
+/* header and footer areas */
+.menu { padding: 0; }
+.menu li { display: inline-block; }
+.article-meta, .menu a {
+  text-decoration: none;
+  background: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+.menu, .article-meta, footer { text-align: center; }
+.title { font-size: 1.1em; text-align: center; }
+footer a { text-decoration: none; }
+/* hr { */
+/*   border: 1px solid #; */
+/*   color: #000; */ 
+/* } */
+
+/* code */
+pre {
+  border: 1px solid #ddd;
+  box-shadow: 5px 5px 5px #eee;
+  padding: 1em;
+  overflow-x: auto;
+}
+code { background: #f9f9f9; }
+pre code { background: none; }
+
+/* misc elements */
+img, iframe, video { max-width: 100%; display: block; margin: 0 auto;}
+main { hyphens: auto; }
+blockquote {
+  background: #f9f9f9;
+  border-left: 5px solid #ccc;
+  padding: 3px 1em 3px;
+}
+
+table {
+  margin: auto;
+  border-top: 1px solid #666;
+  border-bottom: 1px solid #666;
+}
+table thead th { border-bottom: 1px solid #ddd; }
+th, td { padding: 5px; }
+thead, tfoot, tr:nth-child(even) { background: #eee; }
+
+a:link{
+  color:#003321;
+}
+a:visited{
+  color:#003321;
+}
+a:hover{
+  color:orange;
+}
+a:focus{
+  color:green;
+}
+a:active{
+  color:red;
+}
+
+hr { display: block; height: 1px;
+    border: 0; border-top: 1px solid #003321;
+    margin: 1em 0; padding: 0; }
+
+.lang-switch { font-weight: bold; }
+
+h1 {
+  line-height: 1.2;
+  font-size: 32px;
+}
+
+h2 {
+  line-height: 1.2;
+  font-size: 24px;
+}
