@@ -7,21 +7,21 @@ body {
 }
 
 /* make background with opacity and fixed*/
-@media (min-width: 800px) {
-  body::after {
-    content: "";
-    /* background: url(/img/valencia.svg); */
-    background: url(/img/valencia.svg);
-    background-size: cover;
-    opacity: 0.1;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: fixed;
-    z-index: -1;
-  }
-}
+/* @media (min-width: 800px) { */
+/*   body::after { */
+/*     content: ""; */
+/*     /1* background: url(/img/valencia.svg); *1/ */
+/*     background: url(/img/valencia.svg); */
+/*     background-size: cover; */
+/*     opacity: 0.1; */
+/*     top: 0; */
+/*     left: 0; */
+/*     bottom: 0; */
+/*     right: 0; */
+/*     position: fixed; */
+/*     z-index: -1; */
+/*   } */
+/* } */
 
 /* header and footer areas */
 .menu { padding: 0; }
